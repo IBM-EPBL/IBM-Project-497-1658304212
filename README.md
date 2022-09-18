@@ -5,4 +5,4 @@ AI based discourse for Banking Industry
 Yuvan Shankar J<br/>
 Kavyapriya V K<br/>
 Shwetha M K<br/>
-Karthick V<br/>
+Karthick V
