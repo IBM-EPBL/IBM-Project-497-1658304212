@@ -2,7 +2,7 @@
 AI based discourse for Banking Industry
 
 # Team numbers
-Yuvan Shankar J<br/>
-Kavyapriya V K<br/>
-Shwetha M K<br/>
-Karthick V
+Team Lead- Yuvan Shankar J<br/>
+Team Member 1- Kavyapriya V K<br/>
+Team Member 2-Shwetha M K<br/>
+Team Member 3- Karthick V
