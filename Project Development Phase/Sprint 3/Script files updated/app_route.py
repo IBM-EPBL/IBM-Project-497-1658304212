@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 15 00:29:31 2022
-
-@author: Yuvan Shankar J
-"""
 
 from flask import Flask,render_template
 app=Flask(__name__,template_folder='template')
