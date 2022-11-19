@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Account Balance</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:darkcyan;
+      }
+      .header {
+      padding: 30px;
+      text-align: center;
+      background: #bc1a6b;
+      color: white;
+      font-size: 30px;
+      }
+      * {
+        box-sizing: border-box;
+
+      }
+      input[type=text],
+      select,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #eeeeee;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 8px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type=text],
+      select,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #eeeeee;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 8px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type=submit] {
+        background-color: #060505;
+        color: #ffffff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+      }
+      input[type=submit]:hover {
+        background-color: #7f81d2;
+      }
+      input[type=submit]:hover {
+        background-color: #7f81d2;
+      }
+      .container {
+        border-radius: 8px;
+        background-color: #FFA500;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Account Balance</h2>
+    <div class="container">
+      <form action="login" method="POST">
+        <label for="accnum">Account number</label>
+        <input type="text" id="accnum" name="accnum" placeholder="Enter your account number">
+        <label for="pass">Password</label>
+        <input type="text" id="pass" name="pass" placeholder="Enter your password">
+        <br>
+        <input type="submit" value="Login" name="submit">
+        {% with messages = get_flashed_messages() %}  
+           {% if messages %}  
+               {% for message in messages %}  
+                    <p>{{ message }}</p>  
+               {% endfor %}  
+           {% endif %}  
+        {% endwith %}
+      </form>
+    </div>
+  </body>
+</html>
